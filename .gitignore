@@ -1,0 +1,16 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE
+.idea/
+*.swp
+*.swo
+
+# Dependencies (none currently, kept for future use)
+node_modules/
+
+# Build output
+dist/
+build/
