@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LevelUpLife - Hi-Fi Prototype Screens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head><body style='background:#08080C;padding:30px;display:flex;justify-content:center;'><div class='board' style='padding:0;'><div class='screen-wrap'>
+<div class="screen-wrap">
+  <div class="phone" id="N2">
+    <div class="notch"></div>
+    <div class="statusbar"><span>9:41</span><span class="right">●●● 5G ▮▮</span></div>
+    <div class="scr">
+      <!-- stepper -->
+      <div style="display:flex;align-items:flex-start;justify-content:center;margin-top:24px;padding:0 40px;">
+        <div style="display:flex;flex-direction:column;align-items:center;width:60px;">
+          <div style="width:32px;height:32px;border-radius:50%;background:var(--purple-500);display:flex;align-items:center;justify-content:center;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg></div>
+          <span style="font-size:11px;margin-top:6px;color:var(--text-primary);">Active</span>
+        </div>
+        <div style="height:32px;display:flex;align-items:center;flex:1;"><div style="height:2px;background:var(--purple-500);width:100%;"></div></div>
+        <div style="display:flex;flex-direction:column;align-items:center;width:60px;">
+          <div style="width:32px;height:32px;border-radius:50%;background:var(--purple-500);display:flex;align-items:center;justify-content:center;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg></div>
+          <span style="font-size:11px;margin-top:6px;color:var(--text-primary);">Completing</span>
+        </div>
+        <div style="height:32px;display:flex;align-items:center;flex:1;"><div style="height:2px;background:var(--purple-500);width:100%;"></div></div>
+        <div style="display:flex;flex-direction:column;align-items:center;width:60px;">
+          <div style="width:32px;height:32px;border-radius:50%;background:var(--purple-500);display:flex;align-items:center;justify-content:center;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg></div>
+          <span style="font-size:11px;margin-top:6px;color:var(--text-primary);">Complete</span>
+        </div>
+      </div>
+      <!-- completion card -->
+      <div class="pad" style="margin-top:32px;">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow);padding:24px;display:flex;flex-direction:column;align-items:center;">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--success);display:flex;align-items:center;justify-content:center;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg></div>
+          <div style="font-size:22px;font-weight:700;margin-top:12px;">Quest Complete!</div>
+          <div style="font-size:14px;color:var(--text-secondary);margin-top:4px;">Quest: Morning Run</div>
+          <div style="font-size:32px;font-weight:700;color:var(--gold-400);margin-top:8px;">+180 XP</div>
+          <div class="divider" style="margin:18px 0;"></div>
+          <div style="width:100%;font-size:13px;color:var(--text-primary);display:flex;justify-content:space-between;margin-bottom:8px;"><span>Total XP</span><span style="font-weight:500;">800 / 1000</span></div>
+          <div class="xpbar" style="width:100%;"><div class="fill" style="width:80%;"></div></div>
+          <div style="background:var(--purple-tint);color:#C7B6FF;font-size:14px;font-weight:500;padding:8px 14px;border-radius:20px;margin-top:16px;display:inline-flex;align-items:center;gap:7px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C7B6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 14.5L8 22l4-2 4 2-1-7.5"/></svg>Badge Unlocked: Fitness Starter</div>
+        </div>
+        <div class="btn btn-primary" style="margin-top:32px;">Return to Quest Board</div>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="nav-tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg><span>Home</span></div>
+      <div class="nav-tab active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8M4 6h6M4 12h3M4 18h6"/></svg><span>Quests</span></div>
+      <div class="nav-tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 01-10 0V4zM7 6H4v2a3 3 0 003 3M17 6h3v2a3 3 0 01-3 3"/></svg><span>Rewards</span></div>
+      <div class="nav-tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5M16 6a3 3 0 010 6M19 20c0-2-1-4-3-5"/></svg><span>Guild</span></div>
+    </div>
+  </div>
+  
+</div>
+
+</div></div></body></html>
+
