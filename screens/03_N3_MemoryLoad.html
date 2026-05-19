@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LevelUpLife - Hi-Fi Prototype Screens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head><body style='background:#08080C;padding:30px;display:flex;justify-content:center;'><div class='board' style='padding:0;'><div class='screen-wrap'>
+<div class="screen-wrap">
+  <div class="phone" id="N3">
+    <div class="notch"></div>
+    <div class="statusbar"><span>9:41</span><span class="right">●●● 5G ▮▮</span></div>
+    <div class="scr">
+      <!-- persistent XP header, flush -->
+      <div style="background:var(--surface);border-bottom:1px solid var(--border);box-shadow:var(--shadow);padding:14px 20px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:16px;font-weight:600;">Level 7 - Scholar</span>
+          <span style="font-size:13px;font-weight:500;color:var(--gold-400);">620 / 1000 XP</span>
+        </div>
+        <div class="xpbar" style="width:100%;margin-top:10px;"><div class="fill" style="width:62%;"></div></div>
+      </div>
+      <div class="pad" style="margin-top:16px;"><div class="title">Rewards</div></div>
+      <div class="pad filter-row" style="margin-top:14px;">
+        <div class="pill active">All</div><div class="pill">Academic</div><div class="pill">Health</div><div class="pill">Personal</div>
+      </div>
+      <div class="pad" style="margin-top:20px;"><div class="sec-label">ACHIEVEMENTS</div></div>
+      <!-- badge grid -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 20px 0;">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;align-items:center;gap:8px;">
+          <div style="width:40px;height:40px;border-radius:10px;background:var(--purple-tint);"></div>
+          <div style="font-size:14px;font-weight:600;text-align:center;">Academic Achiever</div>
+          <div class="xpbar" style="width:100%;height:6px;background:var(--purple-tint);"><div class="fill" style="width:60%;background:var(--purple-500);"></div></div>
+          <div style="font-size:11px;color:var(--text-secondary);">3/5</div>
+        </div>
+        <div style="background:var(--surface);border-radius:12px;box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;align-items:center;gap:8px;border:2px solid var(--gold-400);">
+          <div style="width:40px;height:40px;border-radius:10px;background:var(--gold-400);"></div>
+          <div style="font-size:14px;font-weight:600;text-align:center;">Fitness Starter</div>
+          <div class="xpbar" style="width:100%;height:6px;background:var(--purple-tint);"><div class="fill" style="width:100%;background:var(--purple-500);"></div></div>
+          <div style="font-size:11px;color:var(--text-secondary);">5/5</div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;align-items:center;gap:8px;">
+          <div style="width:40px;height:40px;border-radius:10px;background:var(--purple-tint);"></div>
+          <div style="font-size:14px;font-weight:600;text-align:center;">Scholar</div>
+          <div class="xpbar" style="width:100%;height:6px;background:var(--purple-tint);"><div class="fill" style="width:40%;background:var(--purple-500);"></div></div>
+          <div style="font-size:11px;color:var(--text-secondary);">2/5</div>
+        </div>
+        <div style="background:var(--surface);border-radius:12px;box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;align-items:center;gap:8px;opacity:.5;">
+          <div style="width:40px;height:40px;border-radius:10px;background:#3A3A46;"></div>
+          <div style="font-size:14px;font-weight:600;text-align:center;color:var(--text-secondary);">Locked</div>
+          <div class="xpbar" style="width:100%;height:6px;background:#2A2A34;"><div class="fill" style="width:0%;"></div></div>
+          <div style="font-size:11px;color:var(--text-secondary);">0/5</div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="nav-tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg><span>Home</span></div>
+      <div class="nav-tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8M4 6h6M4 12h3M4 18h6"/></svg><span>Quests</span></div>
+      <div class="nav-tab active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 01-10 0V4zM7 6H4v2a3 3 0 003 3M17 6h3v2a3 3 0 01-3 3"/></svg><span>Rewards</span></div>
+      <div class="nav-tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5M16 6a3 3 0 010 6M19 20c0-2-1-4-3-5"/></svg><span>Guild</span></div>
+    </div>
+  </div>
+  
+</div>
+
+</div></div></body></html>
