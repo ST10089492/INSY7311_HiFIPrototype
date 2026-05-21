@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LevelUpLife - Hi-Fi Prototype Screens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head><body style='background:#08080C;padding:30px;display:flex;justify-content:center;'><div class='board' style='padding:0;'><div class='screen-wrap'>
+<div class="screen-wrap">
+  <div class="phone" id="N5">
+    <div class="notch"></div>
+    <div class="statusbar"><span>9:41</span><span class="right">●●● 5G ▮▮</span></div>
+    <div class="scr">
+      <!-- dimmed quest board bg -->
+      <div class="pad" style="padding-top:16px;"><div class="title">Quest Board</div></div>
+      <div style="display:flex;flex-direction:column;gap:12px;margin-top:20px;">
+        <div class="quest-card"><div class="checkbox"></div><div class="qc-mid"><span class="body-strong">Complete assignment</span><span class="qc-xp"><span class="gold">+80 XP</span></span></div><span class="tag">Academic</span></div>
+        <div class="quest-card"><div class="checkbox"></div><div class="qc-mid"><span class="body-strong">Attend gym session</span><span class="qc-xp"><span class="gold">+50 XP</span></span></div><span class="tag">Health</span></div>
+        <div class="quest-card"><div class="checkbox"></div><div class="qc-mid"><span class="body-strong">Read for 30 min</span><span class="qc-xp"><span class="gold">+40 XP</span></span></div><span class="tag">Personal</span></div>
+      </div>
+      <!-- dim overlay -->
+      <div style="position:absolute;inset:0;background:rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;">
+        <div style="width:320px;background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 20px 50px rgba(0,0,0,.6);padding:24px 16px 16px;display:flex;flex-direction:column;align-items:center;">
+          <div style="font-size:18px;font-weight:700;text-align:center;">Delete this quest?</div>
+          <div style="font-size:14px;color:var(--text-secondary);text-align:center;margin-top:12px;line-height:1.45;padding:0 4px;">"Attend gym session" will be permanently removed. This cannot be undone.</div>
+          <div style="display:flex;gap:16px;margin-top:20px;width:100%;">
+            <div class="btn btn-ghost" style="flex:1;width:auto;">Go Back</div>
+            <div class="btn btn-danger" style="flex:1;border-radius:14px;">Delete</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</div></div></body></html>
