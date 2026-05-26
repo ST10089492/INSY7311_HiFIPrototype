@@ -2,13 +2,13 @@
   --purple-500:#6C47FF;
   --purple-100:#EDE8FF;
   --gold-400:#F5A623;
-  --bg-app:#F5F5F7;
-  --surface:#FFFFFF;
-  --text-primary:#1A1A2E;
-  --text-secondary:#8E8E93;
+  --bg-app:#121218;
+  --surface:#1E1E28;
+  --text-primary:#F5F5FA;
+  --text-secondary:#9A9AAB;
   --success:#30D158;
   --danger:#FF453A;
-  --border:#E5E5EA;
+  --border:#34343F;
 }
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
 body{background:var(--bg-app);color:var(--text-primary);}
